@@ -183,8 +183,7 @@ export default function DashboardDemo() {
       
       {!selectedProject && (
         <>
-          <FirebaseTest />
-          
+         
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ staggerChildren: 0.1 }} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
             <motion.div whileHover={{ scale: 1.02, y: -2 }} transition={{ type: "spring", stiffness: 300 }}>
               <Card className="bg-slate-800/90 backdrop-blur-sm border border-slate-700 shadow-xl hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-300">
